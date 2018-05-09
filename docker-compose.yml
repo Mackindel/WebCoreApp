@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  webcoreapp:
+    image: webcoreapp
+    build:
+      context: .
+      dockerfile: WebCoreApp/Dockerfile
